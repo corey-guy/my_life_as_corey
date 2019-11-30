@@ -1,13 +1,8 @@
-.App {
+.Main {
   text-align: center;
-
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
+.Main-header {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   min-height: 100vh;
   display: flex;
@@ -17,8 +12,3 @@
   font-size: calc(10px + 2vmin);
   color: #3880a6;
 }
-
-.App-link {
-  color: #326b8a;
-}
-

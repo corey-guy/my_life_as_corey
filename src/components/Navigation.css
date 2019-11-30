@@ -1,0 +1,16 @@
+.Navigation {
+  text-align: center;
+}
+
+.Navigation-header {
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  border-style: none none solid none;
+
+}
