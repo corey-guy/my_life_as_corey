@@ -6,9 +6,10 @@ function NavigationList() {
 
 	return (
 		<div>
-			<div className="Nav-Item">Item 1</div>
-			<div className="Nav-Item">Item 2</div>
-			<div className="Nav-Item">Item 3</div>
+			<div className="Nav-Item">Home</div>
+			<div className="Nav-Item">Music</div>
+			<div className="Nav-Item">Calendar</div>
+			<div className="Nav-Item">Fantasy Football</div>
 		</div>
 		);
 }
