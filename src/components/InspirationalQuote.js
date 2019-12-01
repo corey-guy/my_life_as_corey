@@ -1,10 +1,14 @@
 import React from 'react';
+import './InspirationalQuote.css';
 
-function InspirationalQuote() {
-
-	return(
-			<h1>Inspirational Quote</h1>
-		)
+export class InspirationalQuote extends React.Component {
+	//implement a selector that gets one Quote by random
+	//implement add quote
+	render() {
+		return(
+			<div className="InspirationalQuote">
+				<h1>"Walk this way" -Aerosmith</h1>
+			</div>
+		);
+	}
 }
-
-export default InspirationalQuote

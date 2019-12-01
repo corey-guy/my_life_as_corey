@@ -15,14 +15,16 @@ class Main extends React.Component {
   render() {
   	return (
     <div className="Main">
-      <BrowserRouter>
-      	<Switch>
-      		<Route path="/home" component={Home} />
-      		<Route path="/music" component={Music} />
-      		<Route path="/fantasyfootball" component={FantasyFootball} />
-      		<Route path="/calendar" component={Calendar} />
-      	</Switch>
-      </BrowserRouter>
+    	<div className="Main-header">
+	      <BrowserRouter>
+	      	<Switch>
+	      		<Route path="/home" component={Home} />
+	      		<Route path="/music" component={Music} />
+	      		<Route path="/fantasyfootball" component={FantasyFootball} />
+	      		<Route path="/calendar" component={Calendar} />
+	      	</Switch>
+	      </BrowserRouter>
+        </div>
     </div>
   	);
   }

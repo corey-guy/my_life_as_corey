@@ -1,0 +1,12 @@
+.InspirationalQuote {
+	background-color: grey;
+	color: #111;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold; 
+	font-size: 10px;
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: left;
+	min-height: 2vh;
+
+}
