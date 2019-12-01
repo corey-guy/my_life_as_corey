@@ -4,4 +4,11 @@
 	border-width: 1px;
 	border-color: #1CB5E0;
 	width: 100vw;
+	text-decoration: none;
+}
+
+ul#navul {
+	list-style-type: none;
+	padding-left: 0pt;
+	text-decoration: none;
 }

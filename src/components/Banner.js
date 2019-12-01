@@ -6,7 +6,7 @@ function Banner() {
 	return(
 		<div className='Banner'>
 			<header className='Banner-header'>
-				
+				<img className='logo-image' src="https://i.ibb.co/v1BtfYb/Logo2.jpg" alt="Logo2" border="0"/>
 			</header>
 		</div>
 	);

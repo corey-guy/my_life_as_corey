@@ -1,11 +1,99 @@
 .InspirationalQuote {
-	background-color: grey;
-	color: #111;
+	background-color: #ffffff;
+	display: block;
+	color: #000000;
 	font-family: 'Helvetica Neue', sans-serif;
-	font-weight: bold; 
 	font-size: 10px;
 	letter-spacing: -1px; 
 	line-height: 1; 
-	text-align: left;
-	min-height: 2vh;
+	margin-bottom: 205;
+}
+
+
+.brooks {
+  display: inline-block;
+  position: relative;
+  font-family: 'Sanchez', serif;
+  font-size: 2.4em;
+  line-height: 1.5em;
+  font-style: italic;
+
+}
+
+a.bttn {
+  color:#000000;
+  text-decoration:none;
+  transition:0.3s ease all;
+  &:hover {
+    color: red;
+  }
+  &:focus {
+    color: red;
+  }
+}
+
+
+.bttn {
+  font-size:18px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  display:inline-block;
+  text-align:center;
+  width:270px;
+  font-weight:bold;
+  padding:14px 0px;
+  border:3px solid #1CB5E0;
+  border-radius:2px;
+  position:relative;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  &:before {
+    -webkit-transition:0.5s all ease;
+    transition:0.5s all ease;
+    position:absolute;
+    top:0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    opacity:0;
+    content:'';
+    background-color:#FF0072;
+    z-index:-2;
+  }
+  &:hover {
+    &:before {
+      -webkit-transition:0.5s all ease;
+      transition:0.5s all ease;
+      left:0;
+      right:0;
+      opacity:1;
+    }
+  }
+  &:focus {
+    &:before {
+      transition:0.5s all ease;
+      left:0;
+      right:0;
+      opacity:1;
+    }
+  }
+}
+
+.carousel-swap-leave {
+  transition: transform 1s ease-in-out;
+  transform: translate(0, 0);
+}
+.carousel-swap-leave-active {
+  transform: translate(-100%, 0);
+}
+
+.carousel-swap-enter {
+  transition: transform 1s ease-in-out;
+  transform: translate(100%, 0);
+}
+.carousel-swap-enter-active {
+  transform: translate(0, 0);
+}
+
+.carousel-swap-height {
+  transition: height 1s ease-in-out;
 }

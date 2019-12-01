@@ -6,12 +6,12 @@ function NavigationList() {
 
 	return (
 		<div>
-				<nav>
-					<li className="Nav-Item"><Link className="pure-menu-link" to="/">Home</Link></li>
-					<li className="Nav-Item"><Link className="pure-menu-link" to="/music">Music</Link></li>
-					<li className="Nav-Item"><Link className="pure-menu-link" to="/calendar">Calendar</Link></li>
-					<li className="Nav-Item"><Link className="pure-menu-link" to="/fantasyfootball">Fantasy Football</Link></li>
-				</nav>
+					<ul id="navul" className="pure-menu pure-menu-horizontal">
+						<li className="pure-menu-item"><Link className="pure-menu-link" to="/">Home</Link></li>
+						<li className="pure-menu-item"><Link className="pure-menu-link" to="/music">Music</Link></li>
+						<li className="pure-menu-item"><Link className="pure-menu-link" to="/calendar">Calendar</Link></li>
+						<li className="pure-menu-item"><Link className="pure-menu-link" to="/fantasyfootball">Fantasy Football</Link></li>
+					</ul> 
 		</div>
 		);
 }

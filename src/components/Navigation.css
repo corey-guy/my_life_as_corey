@@ -3,7 +3,7 @@
 }
 
 .Navigation-header {
-background: #1CB5E0;  /* fallback for old browsers */
+  background: #1CB5E0;  /* fallback for old browsers */
 
   min-height: 10vh;
   display: flex;
@@ -14,10 +14,12 @@ background: #1CB5E0;  /* fallback for old browsers */
   color: #ffffff;
   border-style: none none solid none;
 
+  border-bottom-width:0;
+
 }
 
 .ham-slice {
-  float: left;
+  
   width: 35px;
   height: 1px;
   background-color: black;

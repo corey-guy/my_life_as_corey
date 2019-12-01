@@ -4,19 +4,18 @@ import { toggleNavigation } from '../redux/actions';
 import { connect } from 'react-redux';
 import NavigationList from './NavigationList';
 import { getIsNavigationVisibile } from "../redux/selectors"
+import hamIcon from '../images/ham-icon.png';
 
 const Navigation = ({ isVisible, toggleNavigation }) => {
 	return(
 		<div className='Navigation'>
 			<header className='Navigation-header' 
 					onClick={() => { toggleNavigation() }}>
-					<div className="ham-slice"></div>
-					<div className="ham-slice"></div>
-					<div className="ham-slice"></div>
+					<img src={hamIcon} height="25px" width="25px"/>
 			</header>
 			{ isVisible ? 
 						<NavigationList /> 
-						: <div></div>} 
+						: ""} 
 		</div>
 	);
 };
