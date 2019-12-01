@@ -1,6 +1,6 @@
 //Core Libraries
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 //stylesheets
 import './Main.css';
@@ -16,14 +16,10 @@ class Main extends React.Component {
   	return (
     <div className="Main">
     	<div className="Main-header">
-	      <BrowserRouter>
-	      	<Switch>
-	      		<Route path="/home" component={Home} />
+	      		<Route exact path="/" component={Home} />
 	      		<Route path="/music" component={Music} />
 	      		<Route path="/fantasyfootball" component={FantasyFootball} />
 	      		<Route path="/calendar" component={Calendar} />
-	      	</Switch>
-	      </BrowserRouter>
         </div>
     </div>
   	);

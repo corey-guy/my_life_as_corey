@@ -1,15 +1,17 @@
-import React from "react";
-import "./NavigationList.css"
-
+import React from 'react';
+import {Link} from 'react-router-dom';
+import './NavigationList.css'
 
 function NavigationList() { 
 
 	return (
 		<div>
-			<div className="Nav-Item">Home</div>
-			<div className="Nav-Item">Music</div>
-			<div className="Nav-Item">Calendar</div>
-			<div className="Nav-Item">Fantasy Football</div>
+				<nav>
+					<li className="Nav-Item"><Link className="pure-menu-link" to="/">Home</Link></li>
+					<li className="Nav-Item"><Link className="pure-menu-link" to="/music">Music</Link></li>
+					<li className="Nav-Item"><Link className="pure-menu-link" to="/calendar">Calendar</Link></li>
+					<li className="Nav-Item"><Link className="pure-menu-link" to="/fantasyfootball">Fantasy Football</Link></li>
+				</nav>
 		</div>
 		);
 }

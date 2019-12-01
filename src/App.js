@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 import Head from './components/Head';
@@ -16,9 +17,11 @@ function App() {
     <div>
       <Head />
       <Banner />
-      <Navigation />
-      <InspirationalQuote />
-      <Main />
+      <BrowserRouter>
+	      <Navigation />
+	      <InspirationalQuote />
+	      <Main />
+      </BrowserRouter>
     </div>
   );
 }
