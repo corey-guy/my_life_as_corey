@@ -9,7 +9,8 @@ const initialState = {
 									 '"Every journey begins with a single step." - basicbjab',
 									 '"And we\'ll see you tomorrow night" - Jack Buck (game 6 of 1991 world series)',
 									 '"It\s a long way to the top if you want to rock and roll" - AC/DC',
-									 '"You can\'t always get what you want" - The Rolling Stones'
+									 '"You can\'t always get what you want" - The Rolling Stones',
+									 '"You were supposed to destroy the sith, not join them" -Obi Wan'
 								    ],
 						currQuote: '"Walk this Way" - Aerosmith'
 					 };

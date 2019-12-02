@@ -18,3 +18,5 @@ export const getCountriesByFilter = (store, filter) => {
 			return store.countries
 	}
 }
+
+export const getSongs = store => store.music.songs;

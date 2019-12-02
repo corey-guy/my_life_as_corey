@@ -1,4 +1,4 @@
-import { TOGGLE_NAVIGATION, CHANGE_QUOTE, SET_COUNTRY_FILTER } from './actionTypes';
+import { TOGGLE_NAVIGATION, CHANGE_QUOTE, SET_COUNTRY_FILTER, ADD_SONG, DELETE_SONG } from './actionTypes';
 
 export const toggleNavigation = navigation => ({
 	type: TOGGLE_NAVIGATION,
@@ -13,4 +13,14 @@ export const changeQuote = quote => ({
 export const setCountriesFilter = filter => ({
 	type: SET_COUNTRY_FILTER,
 	payload: { filter }
+});
+
+export const addSong = song => ({
+	type: ADD_SONG,
+	payload: { song }
+});
+
+export const deleteSong = song => ({
+	type: DELETE_SONG,
+	payload: { song }
 });
