@@ -8,6 +8,8 @@
 }
 
 ul#navul {
+	background-color: #ffffff;
+	color: #ffffff;
 	list-style-type: none;
 	padding-left: 0pt;
 	text-decoration: none;

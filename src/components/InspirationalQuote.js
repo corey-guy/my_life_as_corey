@@ -13,11 +13,12 @@ const InspirationalQuote = ( {changeQuote, currQuote } ) => {
 			<div className="InspirationalQuote">
 				<h1 >Words of the World</h1>
 				<ReactCSSTransitionReplace transitionName="carousel-swap" overflowHidden={false} transitionEnterTimeout={1000} transitionLeaveTimeout={1000}>
-					<blockquote class="brooks" key={currQuote} >{ currQuote }</blockquote>
+					<blockquote className="brooks" key={currQuote} > { currQuote }</blockquote>
 				</ReactCSSTransitionReplace>
 				<br/>
 				<br/>
-				<div class="flex">
+				<br/>
+				<div className="flex">
 				  <a href="#0" class="bttn" onClick={ () => { changeQuote() } } > Change Words of the World </a>
 				</div>
 			</div>

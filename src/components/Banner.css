@@ -4,18 +4,27 @@
 
 .Banner-header {
   background: #323232;
-  min-height: 16vh;
+  min-height: 8vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #3880a6;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 8px;
 }
 
 .logo-image {
 	float: left;
-	height: 15vh;
+	height: 7vh;
 	flex-direction: column;
  	 align-items: center;
   	justify-content: center;
+}
+
+#Guytext {
+  color: #ffffff;
+  float: left;
+  text-align:center;
+  padding-top: 19px;
 }
