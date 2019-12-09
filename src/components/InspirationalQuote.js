@@ -19,7 +19,7 @@ const InspirationalQuote = ( {changeQuote, currQuote } ) => {
 				<br/>
 				<br/>
 				<div className="flex">
-				  <a href="#0" class="bttn" onClick={ () => { changeQuote() } } > Change Words of the World </a>
+				  <a href="#0" className="bttn" onClick={ () => { changeQuote() } } > Change Words of the World </a>
 				</div>
 			</div>
 		);

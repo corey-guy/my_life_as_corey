@@ -20,3 +20,5 @@ export const getCountriesByFilter = (store, filter) => {
 }
 
 export const getSongs = store => store.music.songs;
+
+export const getCurrPic = store => store.randompicture.pic_url;

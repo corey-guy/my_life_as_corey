@@ -1,7 +1,7 @@
 import React from "react";
 import Country from "./Country";
 import { connect } from "react-redux";
-import { getCountries, getCountriesFilter, getCountriesByFilter } from "../../redux/selectors"
+import { getCountriesFilter, getCountriesByFilter } from "../../redux/selectors"
 import { COUNTRY_FILTERS } from "../../constants";
 import { setCountriesFilter } from "../../redux/actions";
 

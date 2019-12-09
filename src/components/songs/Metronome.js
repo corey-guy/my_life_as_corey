@@ -9,10 +9,7 @@ function Metronome({song}) {
     startMetronome,
     isTicking,
     stopMetronome,
-    bpm,
-    setBpm,
-    setBeatsPerMeasure,
-    setSounds 
+    setBpm
   } = useMetronome(120, 4, [click1, click2]);
  
   setBpm(song.tempo);

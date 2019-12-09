@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import Metronome from './Metronome';
 import './SongList.css';
 const Song = ({ song }) => (
-
+	
 	<tr className="song-item">
 		<td><a song={lowerCase(removeWhiteSpace(song.name))}>{ song.name }</a></td>
 		<td>{ song.guitarist }</td>

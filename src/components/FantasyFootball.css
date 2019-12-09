@@ -1,0 +1,65 @@
+#team1 td {
+	color:white;
+	background-color:blue;
+}
+#team2 td {
+	color:gold;
+	background-color:red;
+}
+#team3 td {
+	color:black;
+	background-color:white;
+}
+#team4 td {
+	color:blue;
+	background-color:green;
+}
+#team5 td {
+	color:gold;
+	background-color:purple;
+}
+#team6 td {
+	color:black;
+	background-color:red;
+}
+#team7 td {
+	color:blue;
+	background-color:silver;
+}
+#team8 td {
+	color:orange;
+	background-color:black;
+}
+#team9 td {
+	color:blue;
+	background-color:yellow;
+}
+#team10 td {
+	color:silver;
+	background-color:blue;
+}
+#team11 td {
+	color:teal;
+	background-color:black;
+}
+#team12 td {
+	color:brown;
+	background-color:gold;
+}
+
+#football tr {
+	color:black;
+	background-color:white;
+}
+
+#footballpage #leagues {
+	background-color:white;
+}
+
+#leagues #football {
+	background-color:white;
+}
+
+#leagues tr {
+	background-color:white;
+}

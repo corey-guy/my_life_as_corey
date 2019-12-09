@@ -11,7 +11,7 @@ const Navigation = ({ isVisible, toggleNavigation }) => {
 		<div className='Navigation'>
 			<header className='Navigation-header' 
 					onClick={() => { toggleNavigation() }}>
-					<img src={hamIcon} height="25px" width="25px"/>
+					<img src={hamIcon} height="25px" width="25px" alt="hamburger icon"/>
 			</header>
 			{ isVisible ? 
 						<NavigationList /> 

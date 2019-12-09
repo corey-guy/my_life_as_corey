@@ -12,3 +12,5 @@ export const SET_COUNTRY_FILTER = "SET_COUNTRY_FILTER";
 export const ADD_SONG = "ADD_SONG";
 
 export const DELETE_SONG = "DELETE_SONG";
+
+export const CHANGE_PIC = "CHANGE_PIC";

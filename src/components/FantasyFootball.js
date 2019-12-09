@@ -1,14 +1,15 @@
 import React from 'react';
+import './FantasyFootball.css';
 
 export class FantasyFootball extends React.Component {
 	render() {
 		return (
-			<div>
+			<div id="footballpage">
 				<h1>Fantasy Football</h1>
 				<h2>You're in how many leagues? Well Let's keep track</h2>
-				<table>
+				<table id="leagues">
 					<tr>
-						<table>
+						<table id="football">
 							<tr>
 								<td>Chaska</td>
 								<td>Founded 2008</td>
@@ -22,82 +23,82 @@ export class FantasyFootball extends React.Component {
 								<td>Wins</td>
 								<td>Losses</td>
 							</tr>
-							<tr>
+							<tr id='team1'>
 								<td></td>
-								<td>*** ****** Only 2.0</td>
+								<td>Team 1</td>
 								<td>8</td>
 								<td>4</td>
 							</tr>
-							<tr>
+							<tr id='team2'>
 								<td></td>
-								<td>BuildMyGouldWaller</td>
+								<td>Team 2</td>
 								<td>8</td>
 								<td>4</td>
 							</tr>
-							<tr>
+							<tr id='team3'>
 								<td></td>
-								<td>Stanley Yelnats</td>
+								<td>Team 3</td>
 								<td>8</td>
 								<td>4</td>
 							</tr>
-							<tr>
+							<tr id='team4'>
 								<td></td>
-								<td>Klay Thompson</td>
+								<td>Team 4</td>
 								<td>7</td>
 								<td>5</td>
 							</tr>
-							<tr>
+							<tr id='team5'>
 								<td></td>
-								<td>Left Cheek Sneak</td>
+								<td>Team 5</td>
 								<td>7</td>
 								<td>5</td>
 							</tr>
-							<tr>
+							<tr id='team6'>
 								<td></td>
-								<td>That Yolo Voodoo</td>
+								<td>Team 6</td>
 								<td>7</td>
 								<td>5</td>
 							</tr>
-							<tr>
+							<tr id='team7'>
 								<td></td>
-								<td>Team Birno</td>
+								<td>Team 7</td>
 								<td>6</td>
 								<td>6</td>
 							</tr>
-							<tr>
+							<tr id='team8'>
 								<td></td>
-								<td>Brown No Deal</td>
+								<td>Team 8</td>
 								<td>6</td>
 								<td>6</td>
 							</tr>
-							<tr>
+							<tr id='team9'>
 								<td></td>
-								<td>Koob Little Fingers</td>
+								<td>Team 9</td>
 								<td>6</td>
 								<td>6</td>
 							</tr>
-							<tr>
+							<tr id='team10'>
 								<td></td>
-								<td>***********</td>
-								<td>5</td>
-								<td>7</td>
+								<td>Team 10</td>
+								<td>6</td>
+								<td>6</td>
 							</tr>
-							<tr>
+							<tr id='team11'>
 								<td></td>
-								<td>Little Red Fournette</td>
+								<td>Team 11</td>
 								<td>3</td>
 								<td>9</td>
 							</tr>
-							<tr>
+							<tr id='team12'>
 								<td></td>
-								<td>Do it</td>
+								<td>Team 12</td>
 								<td>1</td>
 								<td>11</td>
 							</tr>
 						</table>
 					</tr>
 					<tr>
-						<table>
+						<table id="football">
 							<tr>
 								<td>Madison, WI</td>
 								<td>Founded 2013</td>
@@ -111,63 +112,63 @@ export class FantasyFootball extends React.Component {
 								<td>Wins</td>
 								<td>Losses</td>
 							</tr>
-							<tr>
+							<tr id='team1'>
 								<td></td>
-								<td>**** ***** & **** *****</td>
+								<td>Team 1</td>
 								<td>9</td>
 								<td>3</td>
 							</tr>
-							<tr>
+							<tr id='team2'>
 								<td></td>
-								<td>TEAM **** STEVE</td>
+								<td>Team 2</td>
 								<td>9</td>
 								<td>3</td>
 							</tr>
-							<tr>
+							<tr id='team3'>
 								<td></td>
-								<td>Guy</td>
+								<td>Team 3</td>
 								<td>8</td>
 								<td>4</td>
 							</tr>
-							<tr>
+							<tr id='team4'>
 								<td></td>
-								<td>Reek's missing ****</td>
+								<td>Team 4</td>
 								<td>7</td>
 								<td>5</td>
 							</tr>
-							<tr>
+							<tr id='team5'>
 								<td></td>
-								<td>*****</td>
+								<td>Team 5</td>
 								<td>6</td>
 								<td>6</td>
 							</tr>
-							<tr>
+							<tr id='team6'>
 								<td></td>
-								<td>*******</td>
+								<td>Team 6</td>
 								<td>5</td>
 								<td>7</td>
 							</tr>
-							<tr>
+							<tr id='team7'>
 								<td></td>
-								<td>ALADEEN</td>
+								<td>Team 7</td>
 								<td>5</td>
 								<td>7</td>
 							</tr>
-							<tr>
+							<tr id='team8'>
 								<td></td>
-								<td>Bob Stidanko's Team</td>
+								<td>Team 8</td>
 								<td>5</td>
 								<td>7</td>
 							</tr>
-							<tr>
+							<tr id='team9'>
 								<td></td>
-								<td>#OutOfBusiness</td>
+								<td>Team 9</td>
 								<td>3</td>
 								<td>9</td>
 							</tr>
-							<tr>
+							<tr id='team10'>
 								<td></td>
-								<td>The LA Golds</td>
+								<td>Team 10</td>
 								<td>3</td>
 								<td>9</td>
 							</tr>

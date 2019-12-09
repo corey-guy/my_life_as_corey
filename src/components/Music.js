@@ -1,8 +1,5 @@
 import React from 'react';
 import './Music.css';
-import { changeQuote } from '../redux/actions';
-import { connect } from 'react-redux';
-import { getCurrQuote } from "../redux/selectors";
 import SongList from './songs/SongList';
 export class Music extends React.Component {
 	render() {
