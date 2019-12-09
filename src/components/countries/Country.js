@@ -1,5 +1,25 @@
 import React from "react";
 import { connect } from "react-redux";
+/*
+let continentCssMap = new Map();
+	continentCssMap.set("Europe", "blue");
+	continentCssMap.set("North America", "red");
+	continentCssMap.set("South America", "green");
+	continentCssMap.set("Africa", "yellow");
+	continentCssMap.set("Asia", "orange");
+	continentCssMap.set("Antarctica", "violet");
+	continentCssMap.set("Australia", "brown");
+*/
+
+	//chain map set calls
+	let continentCssMap = new Map();
+	continentCssMap.set("Europe", "blue")
+	.set("North America", "red")
+	.set("South America", "green")
+	.set("Africa", "yellow")
+	.set("Asia", "orange")
+	.set("Antarctica", "violet")
+	.set("Australia", "brown");
 
 const Country = ({ country }) => (
 	<tr className="country-item">
@@ -39,6 +59,14 @@ function getMonthText(month) {
 		default:
 			return "Mystery Month";
 	}
+}
+
+function getContinentCssBackgroundColor(continent) {
+	return continentCssMap.get(continent);
+}
+
+function getContinentCssFontColor(continent) {
+
 }
 
 export default connect(

@@ -20,6 +20,10 @@ const SongList = ( { songs } ) => (
 			})
 			: "No songs present" }
 	</div>
+
+	//fastest song
+	
+	//hardest difficulty
 );
 
 const mapStateToProps = state => {
