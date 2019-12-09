@@ -2,7 +2,7 @@ import React from "react";
 import Song from "./Song";
 import { connect } from "react-redux";
 import { getSongs } from "../../redux/selectors"
-
+import './SongList.css';
 const SongList = ( { songs } ) => (
 	<div>
 		<tr>
@@ -21,9 +21,8 @@ const SongList = ( { songs } ) => (
 			: "No songs present" }
 	</div>
 
-	//fastest song
-	
 	//hardest difficulty
+
 );
 
 const mapStateToProps = state => {

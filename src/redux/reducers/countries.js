@@ -42,6 +42,11 @@ const initialState = {
 									  year_visited: "2018",
 									  continent: "Europe"
 									 },
+									 { name: "Mexico",
+									  month_visited: 9,
+									  year_visited: "1999",
+									  continent: "North America"
+									 },
 									 { name: "Peru",
 									  month_visited: 10,
 									  year_visited: "2018",
@@ -56,6 +61,11 @@ const initialState = {
 									  month_visited: 4,
 									  year_visited: "2019",
 									  continent: "Europe"
+									 },
+									 { name: "United States of America",
+									  month_visited: 9,
+									  year_visited: "1992",
+									  continent: "North America"
 									 }
 								    ],
 						filter: COUNTRY_FILTERS.NAME

@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import './country.css';
 /*
 let continentCssMap = new Map();
 	continentCssMap.set("Europe", "blue");
@@ -13,23 +14,26 @@ let continentCssMap = new Map();
 
 	//chain map set calls
 	let continentCssMap = new Map();
-	continentCssMap.set("Europe", "blue")
-	.set("North America", "red")
-	.set("South America", "green")
-	.set("Africa", "yellow")
-	.set("Asia", "orange")
-	.set("Antarctica", "violet")
-	.set("Australia", "brown");
+	continentCssMap.set("Europe", "europe")
+	.set("North America", "north-america")
+	.set("South America", "south-america")
+	.set("Africa", "africa")
+	.set("Asia", "asia")
+	.set("Antarctica", "antarctica")
+	.set("Australia", "australia");
 
 const Country = ({ country }) => (
 	<tr className="country-item">
-		<td>{ country.name }</td>
-		<td>{ getMonthText( country.month_visited )}</td>
-		<td>{ country.year_visited }</td>
-		<td>{ country.continent }</td>
+		<td> <a country={ country.name }> {country.name} </a></td>
+		<td><a month= { getMonthText( country.month_visited ) }> { getMonthText( country.month_visited )} </a></td>
+		<td> <a decade={ getDecade(country.year_visited) }> { country.year_visited } </a></td>
+		<td> <a continent={ continentCssMap.get(country.continent) }>{ country.continent }</a></td>
 	</tr>
 );
 
+function getDecade(year) {
+	return year.substring(0,3);
+}
 function getMonthText(month) {
 	switch(month) {
 		case 1:
@@ -59,14 +63,6 @@ function getMonthText(month) {
 		default:
 			return "Mystery Month";
 	}
-}
-
-function getContinentCssBackgroundColor(continent) {
-	return continentCssMap.get(continent);
-}
-
-function getContinentCssFontColor(continent) {
-
 }
 
 export default connect(

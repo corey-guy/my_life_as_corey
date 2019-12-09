@@ -1,0 +1,40 @@
+a[continent*="america"] {
+	color:cyan;
+}
+
+a[continent="north-america"] {
+	background-color: black;
+}
+
+a[continent="south-america"] {
+	background-color: gray;
+}
+
+a[continent="europe"] {
+	color:blue;
+	background-color:yellow;
+}
+
+a[country$="ia"] {
+	color:green;
+}
+
+a[country] {
+	background-color:#FFFAAA;
+}
+a[decade="201"] {
+	color:black;
+	background-color: white;
+}
+a[decade="199"] {
+	color:white;
+	background-color: black;
+}
+
+a[month$="ber"] {
+	color:black;
+}
+
+a[month="September"] {
+	background-color:red;
+}

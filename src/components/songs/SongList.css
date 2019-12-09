@@ -1,0 +1,42 @@
+th {
+	color:white;
+	background-color:black;
+}
+
+tr th {
+	font-size: 22px;
+}
+
+a td {
+	background-color:black;
+}
+
+tr {
+	color: green;
+	background-color:yellow;
+}
+
+td a[song="snow(heyoh)"] {
+	color: red;
+	background-color:maroon;
+}
+
+td a[song="nothingelsematters"] {
+	color: gray;
+	background-color:black;
+}
+
+td a[song="whodoyouthinkiwas"] {
+	color: blue;
+	background-color:black;
+}
+
+td a[song="7empest"] {
+	color: pink;
+	background-color:white;
+}
+
+td a[song="littlewing"] {
+	color: purple;
+	background-color:white;
+}

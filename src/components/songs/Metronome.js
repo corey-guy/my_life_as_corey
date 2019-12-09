@@ -24,8 +24,6 @@ function Metronome({song}) {
       <div>{song.tempo}</div>
     </div>
   );
- 
-
 }
 
 export default Metronome; 
